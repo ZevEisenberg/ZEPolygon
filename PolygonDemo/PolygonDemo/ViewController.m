@@ -27,7 +27,6 @@
     
     CAShapeLayer *shapeLayer = [CAShapeLayer layer];
     shapeLayer.path = nonagon.CGPath;
-    shapeLayer.fillRule = kCAFillRuleEvenOdd;
     
     maskedImageView.layer.mask = shapeLayer;
     
